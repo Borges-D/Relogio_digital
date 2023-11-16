@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+
+</head>
+<!--~\(≧▽≦)/~---------------------------------------------------------------~\(≧▽≦)/~-->
+
+<body>
+  <!-- Cabeçario da Página-->
+  <header>
+    <h1>Home</h1>
+    <!-- Menu de Navegação -->
+    <nav>
+      <!-- Links -->
+      <a href="/login.html">Login</a> <br>
+      <a target='_blank' href="https://github.com/CodaFofo">Github</a>
+      <a target='_blank' href="">FAQ</a>
+    </nav>
+  </header>
+
+  <!--~\(≧▽≦)/~--------------------MAIN----------------------------~\(≧▽≦)/~-->
+  <!--Conteúdo Principal da Página-->
+  <main>
+
+    <!-- Subseção da Página -->
+    <section>
+      <h2>Sobre este Site</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum aliquid, qui placeat amet consequuntur, perferendis exercitationem architecto facere, quisquam eius nihil expedita. Excepturi, eligendi? At iusto minus saepe molestias?</p>
+    </section>
+
+    <section>
+      <h2>Depoimentos</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a aperiam eaque, debitis quasi praesentium nobis doloremque ratione minus. Eum, quibusdam mollitia ut quis eligendi veritatis reiciendis itaque quam nisi?</p>
+    </section>
+    <!--~\(≧▽≦)/~---------------------------------------------------------------~\(≧▽≦)/~-->
+    <section>
+      <!--Formalário-->
+      <h2>Formulário</h2>
+      <form>
+
+        <!-- Desable para desabilitar o forms -->
+        <!--Place Holder é um texto aonde fica para remark-->
+
+
+        <label for="nome">Nome</label> <!--É um rótulo- e o For para vincular-->
+        <input type="text" id="nome" name="nome" placeholder="Nome" required><br> <!--Quebrta de linha (BR)-->
+
+        <label for="data">Data</label>
+        <input type="date" id="data" name="data" required> <br>
+
+        <label for="hora">Hora</label>
+        <input type="time" id="hora" name="hora" placeholder="" required> <br>
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" placeholder="teste123@gmail.com" required> <br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"placeholder="Senha123"  required> <br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(11)123456789" required> <br>
+
+        <label for="numero">Numero:</label>
+        <input type="number" id="numero" name="numero" min="0" max="130" required> <br> <!--Usado para Quatidade, no caso Stores.-->
+
+        <label for="opc1">Opção 1:</label>
+        <input type="radio" id="opc1" name="opc">
+
+        <label for="opc2">Opção 2:</label>
+        <input type="radio" id="opc2" name="opc"> <br>
+
+        <label for="marcar">Marcar</label>
+        <input type="checkbox" id="marcar" name="marcar" required> <br>
+
+        <label for="texto">Texto:</label>
+        <textarea id="texto" name="texto" required=></textarea> <br> <!--Required é requerido/Obrigatório -->
+
+        <label for="seletion">Seleção:</label>
+        <select id="seletion" name="seletion">
+          <option value="">Seleção 1</option>
+          <option value="">Seleção 2</option>
+        </select> <br>
+
+        <button>Enviar</button>
+
+
+      </form>
+    </section>
+
+
+    <!--~\(≧▽≦)/~---------------------------------------------------------------~\(≧▽≦)/~-->
+  </main>
+
+  <!--Rodapé da Página-->
+  <footer>
+    <p>SoulCode.com todos os direitos reservados.</p>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
