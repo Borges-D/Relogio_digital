@@ -1,7 +1,7 @@
 # Relogio Digital ⏰  
-<a href = "https://codafofo.github.io/Relogio_digital/">Link Projeto</a>  
+<a href = "https://borges-d.github.io/Relogio_digital/">Link Projeto</a>  
 
- <img align="flex" alt="fotin" src="https://cdn.discordapp.com/attachments/1139016336899588177/1169868475381055528/relogio.JPG?ex=6556f7eb&is=654482eb&hm=f5a12d98399181576de09fe776b0480b50f9b73af515e6a0897afe1a611b84e8&">
+ <img align="flex" alt="fotin" src="https://cdn.discordapp.com/attachments/1139016336899588177/1169868475381055528/relogio.JPG?ex=65ea9feb&is=65d82aeb&hm=c802c0de763dcb9e26b7af778730a84db9bf7e9a50d4d1dcf7685b0c98f8fdf3&">
 
   
   ##
